@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "My Test App - DEV (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev"
+            ],
+            "flutterMode": "debug"
+        },
+        {
+            "name": "My Test App - DEV (Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev"
+            ],
+            "flutterMode": "release"
+        },
+        {
+            "name": "My Test App - PROD (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ],
+            "flutterMode": "debug"
+        },
+        {
+            "name": "My Test App - PROD (Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ],
+            "flutterMode": "release"
+        },
+        {
+            "name": "My Test App - QA (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_qa.dart",
+            "args": [
+                "--flavor",
+                "qa"
+            ],
+            "flutterMode": "debug"
+        },
+        {
+            "name": "My Test App - QA (Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_qa.dart",
+            "args": [
+                "--flavor",
+                "qa"
+            ],
+            "flutterMode": "release"
+        }
+    ]
+}

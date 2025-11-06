@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.flutter_handle_flavors"
+        applicationId = "com.create_flavors"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -29,6 +29,24 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
+    flavorDimensions += "default"
+     productFlavors {
+        create("dev") {
+            dimension = "default"
+            applicationIdSuffix = ".dev"
+            resValue("string", "app_name", "My Test App DEV")
+        }
+        create("qa") {
+            dimension = "default"
+            applicationIdSuffix = ".qa"
+            resValue("string", "app_name", "My Test App QA")
+        }
+         create("prod") {
+            dimension = "default"
+            resValue("string", "app_name", "My Test App")
+        }
+    }
+
 
     buildTypes {
         release {
