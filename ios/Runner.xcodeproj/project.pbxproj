@@ -303,7 +303,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		249021D3217E4FDB00AE95B9 /* Profile */ = {
+		249021D3217E4FDB00AE95B9 /* Profile-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,9 +353,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Profile;
+			name = "Profile-prod";
 		};
-		249021D4217E4FDB00AE95B9 /* Profile */ = {
+		249021D4217E4FDB00AE95B9 /* Profile-prod */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -375,9 +375,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Profile;
+			name = "Profile-prod";
 		};
-		331C8088294A63A400263BE5 /* Debug */ = {
+		331C8088294A63A400263BE5 /* Debug-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -392,9 +392,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Debug;
+			name = "Debug-prod";
 		};
-		331C8089294A63A400263BE5 /* Release */ = {
+		331C8089294A63A400263BE5 /* Release-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -407,9 +407,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Release;
+			name = "Release-prod";
 		};
-		331C808A294A63A400263BE5 /* Profile */ = {
+		331C808A294A63A400263BE5 /* Profile-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,7 +422,7 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Profile;
+			name = "Profile-prod";
 		};
 		6F7BF2E62EBCCAD0007231E1 /* Debug-dev */ = {
 			isa = XCBuildConfiguration;
@@ -978,7 +978,7 @@
 			};
 			name = "Profile-qa";
 		};
-		97C147031CF9000F007C117D /* Debug */ = {
+		97C147031CF9000F007C117D /* Debug-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1033,9 +1033,9 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug-prod";
 		};
-		97C147041CF9000F007C117D /* Release */ = {
+		97C147041CF9000F007C117D /* Release-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1087,9 +1087,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release-prod";
 		};
-		97C147061CF9000F007C117D /* Debug */ = {
+		97C147061CF9000F007C117D /* Debug-prod */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
@@ -1110,9 +1110,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = "Debug-prod";
 		};
-		97C147071CF9000F007C117D /* Release */ = {
+		97C147071CF9000F007C117D /* Release-prod */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -1132,7 +1132,7 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Release;
+			name = "Release-prod";
 		};
 /* End XCBuildConfiguration section */
 
@@ -1140,50 +1140,50 @@
 		331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				331C8088294A63A400263BE5 /* Debug */,
+				331C8088294A63A400263BE5 /* Debug-prod */,
 				6F7BF2EB2EBCCADE007231E1 /* Debug-qa */,
 				6F7BF2E82EBCCAD0007231E1 /* Debug-dev */,
-				331C8089294A63A400263BE5 /* Release */,
+				331C8089294A63A400263BE5 /* Release-prod */,
 				6F7BF2F12EBCCAF5007231E1 /* Release-qa */,
 				6F7BF2EE2EBCCAEC007231E1 /* Release-dev */,
-				331C808A294A63A400263BE5 /* Profile */,
+				331C808A294A63A400263BE5 /* Profile-prod */,
 				6F7BF2F72EBCCB09007231E1 /* Profile-qa */,
 				6F7BF2F42EBCCAFB007231E1 /* Profile-dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-prod";
 		};
 		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147031CF9000F007C117D /* Debug */,
+				97C147031CF9000F007C117D /* Debug-prod */,
 				6F7BF2E92EBCCADE007231E1 /* Debug-qa */,
 				6F7BF2E62EBCCAD0007231E1 /* Debug-dev */,
-				97C147041CF9000F007C117D /* Release */,
+				97C147041CF9000F007C117D /* Release-prod */,
 				6F7BF2EF2EBCCAF5007231E1 /* Release-qa */,
 				6F7BF2EC2EBCCAEC007231E1 /* Release-dev */,
-				249021D3217E4FDB00AE95B9 /* Profile */,
+				249021D3217E4FDB00AE95B9 /* Profile-prod */,
 				6F7BF2F52EBCCB09007231E1 /* Profile-qa */,
 				6F7BF2F22EBCCAFB007231E1 /* Profile-dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-prod";
 		};
 		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147061CF9000F007C117D /* Debug */,
+				97C147061CF9000F007C117D /* Debug-prod */,
 				6F7BF2EA2EBCCADE007231E1 /* Debug-qa */,
 				6F7BF2E72EBCCAD0007231E1 /* Debug-dev */,
-				97C147071CF9000F007C117D /* Release */,
+				97C147071CF9000F007C117D /* Release-prod */,
 				6F7BF2F02EBCCAF5007231E1 /* Release-qa */,
 				6F7BF2ED2EBCCAEC007231E1 /* Release-dev */,
-				249021D4217E4FDB00AE95B9 /* Profile */,
+				249021D4217E4FDB00AE95B9 /* Profile-prod */,
 				6F7BF2F62EBCCB09007231E1 /* Profile-qa */,
 				6F7BF2F32EBCCAFB007231E1 /* Profile-dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-prod";
 		};
 /* End XCConfigurationList section */
 	};
